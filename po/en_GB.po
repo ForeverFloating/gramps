@@ -39,9 +39,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gramps 3.5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-13 17:49+0100\n"
-"PO-Revision-Date: 2024-07-23 21:55+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>\n"
+"POT-Creation-Date: 2023-07-30 22:08+0100\n"
+"PO-Revision-Date: 2023-08-03 16:25+0000\n"
+"Last-Translator: Nick Hall <nick-h@gramps-project.org>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
 "gramps-project/gramps/en_GB/>\n"
 "Language: en_GB\n"
@@ -8629,7 +8629,7 @@ msgstr "General"
 msgid "Research"
 msgstr "Research"
 
-#: ../gramps/gen/lib/notetype.py:79
+#: ../gramps/gen/lib/notetype.py:78
 msgid "Analysis"
 msgstr "Analysis"
 
@@ -9413,7 +9413,7 @@ msgstr "Rule"
 msgid "Thumbnailer"
 msgstr "Thumbnailer"
 
-#: ../gramps/gen/plug/_pluginreg.py:130 ../gramps/gui/configure.py:1655
+#: ../gramps/gen/plug/_pluginreg.py:113 ../gramps/gui/configure.py:1424
 msgid "Citation formatter"
 msgstr "Citation formatter"
 
@@ -9896,9 +9896,25 @@ msgstr "Given Nickname Surname"
 msgid "Surname Given Nickname"
 msgstr "Surname Given Nickname"
 
-#: ../gramps/gen/plug/docgen/treedoc.py:74
+#: ../gramps/gen/plug/docgen/treedoc.py:69
 msgid "Surname, Given Nickname"
 msgstr "Surname, Given Nickname"
+
+#: ../gramps/gen/plug/docgen/treedoc.py:70
+msgid "GivenNicknameSurname"
+msgstr "GivenNicknameSurname"
+
+#: ../gramps/gen/plug/docgen/treedoc.py:72
+msgid "Auto"
+msgstr "Auto"
+
+#: ../gramps/gen/plug/docgen/treedoc.py:73
+msgid "Call Name Only"
+msgstr "Call Name Only"
+
+#: ../gramps/gen/plug/docgen/treedoc.py:74
+msgid "Whole Given Name"
+msgstr "Whole Given Name"
 
 #: ../gramps/gen/plug/docgen/treedoc.py:75
 msgid "GivenNicknameSurname"
@@ -11083,7 +11099,7 @@ msgstr "Python modules"
 msgid "GObject introspection modules"
 msgstr "GObject introspection modules"
 
-#: ../gramps/gen/utils/requirements.py:172
+#: ../gramps/gen/utils/requirements.py:159
 msgid "Executables"
 msgstr "Executables"
 
@@ -12195,17 +12211,17 @@ msgstr "Calendar on reports"
 msgid "Calendar on input"
 msgstr "Calendar on input"
 
-#: ../gramps/gui/configure.py:1619
-msgid "On the previous day"
-msgstr "On the previous day"
+#: ../gramps/gui/configure.py:1391
+msgid "on the previous day"
+msgstr "on the previous day"
 
-#: ../gramps/gui/configure.py:1620
-msgid "On the next day"
-msgstr "On the next day"
+#: ../gramps/gui/configure.py:1392
+msgid "on the next day"
+msgstr "on the next day"
 
-#: ../gramps/gui/configure.py:1621
-msgid "Only on leap years"
-msgstr "Only on leap years"
+#: ../gramps/gui/configure.py:1393
+msgid "only on leap years"
+msgstr "only on leap years"
 
 #: ../gramps/gui/configure.py:1628
 msgid ""
@@ -12215,7 +12231,7 @@ msgstr ""
 "For non leap years, anniversaries are displayed on either February 28, March "
 "1 or not at all in Gregorian calendars"
 
-#: ../gramps/gui/configure.py:1632
+#: ../gramps/gui/configure.py:1401
 msgid "Show leap day anniversaries"
 msgstr "Show leap day anniversaries"
 
@@ -12425,11 +12441,11 @@ msgstr "Show Tools icon on toolbar"
 msgid "Show or hide the Tools icon on the toolbar."
 msgstr "Show or hide the Tools icon on the toolbar."
 
-#: ../gramps/gui/configure.py:2090
+#: ../gramps/gui/configure.py:1721
 msgid "Show Addons icon on toolbar"
 msgstr "Show Addons icon on toolbar"
 
-#: ../gramps/gui/configure.py:2095
+#: ../gramps/gui/configure.py:1723
 msgid "Show or hide the Addons icon on the toolbar."
 msgstr "Show or hide the Addons icon on the toolbar."
 
@@ -13294,7 +13310,7 @@ msgstr "Open the tools dialog"
 msgid "Tools"
 msgstr "Tools"
 
-#: ../gramps/gui/displaystate.py:423
+#: ../gramps/gui/displaystate.py:414
 msgid "Open Addon Manager"
 msgstr "Open Addon Manager"
 
@@ -18121,7 +18137,7 @@ msgstr "_Abandon Changes and Quit"
 msgid "_About"
 msgstr "_About"
 
-#: ../gramps/gui/grampsgui.py:58
+#: ../gramps/gui/grampsgui.py:56
 msgid "_Addon Manager..."
 msgstr "_Addon Manager..."
 
@@ -18767,11 +18783,11 @@ msgstr "_Open"
 msgid "Style Editor"
 msgstr "Style Editor"
 
-#: ../gramps/gui/plug/_windows.py:230
+#: ../gramps/gui/plug/_windows.py:204
 msgid "Project"
 msgstr "Project"
 
-#: ../gramps/gui/plug/_windows.py:234
+#: ../gramps/gui/plug/_windows.py:208
 msgid "Audience"
 msgstr "Audience"
 
@@ -18779,11 +18795,11 @@ msgstr "Audience"
 msgid "Version"
 msgstr "Version"
 
-#: ../gramps/gui/plug/_windows.py:241
+#: ../gramps/gui/plug/_windows.py:215
 msgid "Installed version"
 msgstr "Installed version"
 
-#: ../gramps/gui/plug/_windows.py:259 ../gramps/gui/plug/_windows.py:260
+#: ../gramps/gui/plug/_windows.py:233 ../gramps/gui/plug/_windows.py:234
 msgid "Install"
 msgstr "Install"
 
@@ -18791,27 +18807,23 @@ msgstr "Install"
 msgid "Wiki"
 msgstr "Wiki"
 
-#: ../gramps/gui/plug/_windows.py:270
+#: ../gramps/gui/plug/_windows.py:244
 msgid "Requires"
 msgstr "Requires"
 
-#: ../gramps/gui/plug/_windows.py:275
-msgid "Update"
-msgstr "Update"
+#: ../gramps/gui/plug/_windows.py:249
+msgid "Upgrade"
+msgstr "Upgrade"
 
-#: ../gramps/gui/plug/_windows.py:302 ../gramps/gui/plug/_windows.py:313
+#: ../gramps/gui/plug/_windows.py:270
 msgid "Module installation failed"
 msgstr "Module installation failed"
 
-#: ../gramps/gui/plug/_windows.py:314
-msgid "Gramps was unable to install the required modules"
-msgstr "Gramps was unable to install the required modules"
-
-#: ../gramps/gui/plug/_windows.py:344
+#: ../gramps/gui/plug/_windows.py:294
 msgid "Requirements"
 msgstr "Requirements"
 
-#: ../gramps/gui/plug/_windows.py:380
+#: ../gramps/gui/plug/_windows.py:328
 msgid "Addon Manager"
 msgstr "Addon Manager"
 
@@ -18819,7 +18831,7 @@ msgstr "Addon Manager"
 msgid "Refresh"
 msgstr "Refresh"
 
-#: ../gramps/gui/plug/_windows.py:419
+#: ../gramps/gui/plug/_windows.py:364
 msgid "Filters"
 msgstr "Filters"
 
@@ -18827,17 +18839,29 @@ msgstr "Filters"
 msgid "All addons"
 msgstr "All addons"
 
-#: ../gramps/gui/plug/_windows.py:426 ../gramps/gui/plug/_windows.py:631
-msgid "Not installed"
-msgstr "Not installed"
+#: ../gramps/gui/plug/_windows.py:429
+msgid "Settings"
+msgstr "Settings"
 
-#: ../gramps/gui/plug/_windows.py:427 ../gramps/gui/plug/_windows.py:634
-msgid "Installed"
-msgstr "Installed"
+#: ../gramps/gui/plug/_windows.py:432
+msgid "Projects"
+msgstr "Projects"
 
-#: ../gramps/gui/plug/_windows.py:428 ../gramps/gui/plug/_windows.py:637
-#: ../gramps/plugins/webreport/basepage.py:1911
-#: ../gramps/plugins/webreport/basepage.py:1976
+#: ../gramps/gui/plug/_windows.py:452
+msgid "Loading..."
+msgstr "Loading..."
+
+#: ../gramps/gui/plug/_windows.py:494
+msgid "No matching addons found."
+msgstr "No matching addons found."
+
+#: ../gramps/gui/plug/_windows.py:617
+msgid "Allow Gramps to install required python modules"
+msgstr "Allow Gramps to install required python modules"
+
+#: ../gramps/gui/plug/_windows.py:622
+#: ../gramps/plugins/webreport/basepage.py:1767
+#: ../gramps/plugins/webreport/basepage.py:1834
 msgid "Updates"
 msgstr "Updates"
 
@@ -18933,15 +18957,15 @@ msgstr "Do not ask about previously notified addons"
 msgid "Check for updated addons now"
 msgstr "Check for updated addons now"
 
-#: ../gramps/gui/plug/_windows.py:820
+#: ../gramps/gui/plug/_windows.py:687
 msgid "New Project"
 msgstr "New Project"
 
-#: ../gramps/gui/plug/_windows.py:822
+#: ../gramps/gui/plug/_windows.py:689
 msgid "Edit Project"
 msgstr "Edit Project"
 
-#: ../gramps/gui/plug/_windows.py:830
+#: ../gramps/gui/plug/_windows.py:697
 msgid "Project name"
 msgstr "Project name"
 
@@ -20165,9 +20189,9 @@ msgstr "Gramps had a problem the last time it was run."
 msgid "Would you like to run the Check and Repair tool?"
 msgstr "Would you like to run the Check and Repair tool?"
 
-#: ../gramps/gui/viewmanager.py:1286 ../gramps/gui/viewmanager.py:1904
-msgid "Please wait for backup to complete."
-msgstr "Please wait for backup to complete."
+#: ../gramps/gui/viewmanager.py:1212 ../gramps/gui/viewmanager.py:1790
+msgid "Please, wait before closing gramps"
+msgstr "Please, wait before closing gramps"
 
 #: ../gramps/gui/viewmanager.py:1288 ../gramps/gui/viewmanager.py:1292
 msgid "Autobackup..."
@@ -20866,9 +20890,9 @@ msgstr "This field is mandatory"
 msgid "'%s' is not a valid date value"
 msgstr "'%s' is not a valid date value"
 
-#: ../gramps/plugins/cite/cite.gpr.py:35
-msgid "Legacy"
-msgstr "Legacy"
+#: ../gramps/plugins/cite/cite.gpr.py:36
+msgid "Default citation formatter"
+msgstr "Default citation formatter"
 
 #: ../gramps/plugins/cite/cite.gpr.py:36
 msgid "Legacy citation formatter"
