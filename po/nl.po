@@ -19,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gramps 5.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-13 17:49+0100\n"
-"PO-Revision-Date: 2024-12-30 16:00+0000\n"
+"POT-Creation-Date: 2023-07-30 22:08+0100\n"
+"PO-Revision-Date: 2023-08-03 16:25+0000\n"
 "Last-Translator: Stephan Paternotte <stephan@paternottes.net>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gramps-project/"
 "gramps/nl/>\n"
@@ -19078,9 +19078,21 @@ msgstr "Niet geïnstalleerd"
 msgid "Installed"
 msgstr "Geïnstalleerd"
 
-#: ../gramps/gui/plug/_windows.py:428 ../gramps/gui/plug/_windows.py:637
-#: ../gramps/plugins/webreport/basepage.py:1911
-#: ../gramps/plugins/webreport/basepage.py:1976
+#: ../gramps/gui/plug/_windows.py:452
+msgid "Loading..."
+msgstr "Laden…"
+
+#: ../gramps/gui/plug/_windows.py:494
+msgid "No matching addons found."
+msgstr "Geen overeenkomstige uitbreidingen gevonden."
+
+#: ../gramps/gui/plug/_windows.py:617
+msgid "Allow Gramps to install required python modules"
+msgstr "Laat Gramps de vereiste python-modules installeren"
+
+#: ../gramps/gui/plug/_windows.py:622
+#: ../gramps/plugins/webreport/basepage.py:1767
+#: ../gramps/plugins/webreport/basepage.py:1834
 msgid "Updates"
 msgstr "Updates"
 
@@ -19188,9 +19200,9 @@ msgstr "Project bewerken"
 msgid "Project name"
 msgstr "Projectnaam"
 
-#: ../gramps/gui/plug/_windows.py:928
-msgid "Restore project defaults"
-msgstr "Project herstellen naar standaardwaarden"
+#: ../gramps/gui/plug/_windows.py:758
+msgid "Checking Addons Failed"
+msgstr "Controle op uitbreidingen is mislukt"
 
 #: ../gramps/gui/plug/_windows.py:929
 msgid "Are you sure?"
@@ -20423,9 +20435,9 @@ msgstr "Gramps had de laatste keer dat het werd uitgevoerd een probleem."
 msgid "Would you like to run the Check and Repair tool?"
 msgstr "Wilt u de tool Controle en reparatie uitvoeren?"
 
-#: ../gramps/gui/viewmanager.py:1286 ../gramps/gui/viewmanager.py:1904
-msgid "Please wait for backup to complete."
-msgstr "Wacht tot de lopende back-up klaar is."
+#: ../gramps/gui/viewmanager.py:1212 ../gramps/gui/viewmanager.py:1790
+msgid "Please, wait before closing gramps"
+msgstr "Wacht alstublieft voordat u Gramps afsluit"
 
 #: ../gramps/gui/viewmanager.py:1288 ../gramps/gui/viewmanager.py:1292
 msgid "Autobackup..."
