@@ -23,8 +23,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-13 17:49+0100\n"
-"PO-Revision-Date: 2025-01-11 23:11+0000\n"
+"POT-Creation-Date: 2023-07-30 22:08+0100\n"
+"PO-Revision-Date: 2023-08-03 16:25+0000\n"
 "Last-Translator: Mirko Leonhäuser <mirko@leonhaeuser.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gramps-project/"
 "gramps/de/>\n"
@@ -2473,7 +2473,7 @@ msgstr "{short_month} {year}"
 #: ../gramps/gen/datehandler/_datedisplay.py:499
 msgctxt "from-date"
 msgid ""
-msgstr "from"
+msgstr ""
 
 #. Translators: If there is no special inflection for
 #. "to <Month>" in your language, DON'T translate this.
@@ -2482,7 +2482,7 @@ msgstr "from"
 #: ../gramps/gen/datehandler/_datedisplay.py:504
 msgctxt "to-date"
 msgid ""
-msgstr "to"
+msgstr ""
 
 #: ../gramps/gen/datehandler/_datedisplay.py:423
 #, python-brace-format
@@ -2495,7 +2495,7 @@ msgstr "{date_quality}von {date_start} bis {date_stop}{nonstd_calendar_and_ny}"
 #: ../gramps/gen/datehandler/_datedisplay.py:444
 msgctxt "between-date"
 msgid ""
-msgstr "between"
+msgstr ""
 
 #. Translators: If there is no special inflection for
 #. "and <Month>" in your language, DON'T translate this.
@@ -2503,7 +2503,7 @@ msgstr "between"
 #: ../gramps/gen/datehandler/_datedisplay.py:451
 msgctxt "and-date"
 msgid ""
-msgstr "and"
+msgstr ""
 
 #: ../gramps/gen/datehandler/_datedisplay.py:454
 #, python-brace-format
@@ -2518,7 +2518,7 @@ msgstr ""
 #: ../gramps/gen/datehandler/_datedisplay.py:489
 msgctxt "before-date"
 msgid ""
-msgstr "before"
+msgstr ""
 
 #. Translators: If there is no special inflection for
 #. "after <Month>" in your language, DON'T translate this.
@@ -2526,7 +2526,7 @@ msgstr "before"
 #: ../gramps/gen/datehandler/_datedisplay.py:494
 msgctxt "after-date"
 msgid ""
-msgstr "after"
+msgstr ""
 
 #. Translators: If there is no special inflection for
 #. "about <Month>" in your language, DON'T translate this.
@@ -2534,7 +2534,7 @@ msgstr "after"
 #: ../gramps/gen/datehandler/_datedisplay.py:509
 msgctxt "about-date"
 msgid ""
-msgstr "about"
+msgstr ""
 
 #. Translators: If there is no special inflection for
 #. "estimated <Month>" in your language, DON'T translate this.
@@ -2542,7 +2542,7 @@ msgstr "about"
 #: ../gramps/gen/datehandler/_datedisplay.py:514
 msgctxt "estimated-date"
 msgid ""
-msgstr "estimated"
+msgstr ""
 
 #. Translators: If there is no special inflection for
 #. "calculated <Month>" in your language, DON'T translate this.
@@ -2550,7 +2550,7 @@ msgstr "estimated"
 #: ../gramps/gen/datehandler/_datedisplay.py:519
 msgctxt "calculated-date"
 msgid ""
-msgstr "calculated"
+msgstr ""
 
 #: ../gramps/gen/datehandler/_datedisplay.py:539
 #, python-brace-format
@@ -3382,7 +3382,7 @@ msgstr "Anzahl der Notizen"
 
 #: ../gramps/gen/db/generic.py:2558
 msgid "Number of tags"
-msgstr "Anzahl der Etiketten"
+msgstr "Anzahl der Markierungen"
 
 #: ../gramps/gen/db/generic.py:2559
 msgid "Schema version"
@@ -4221,7 +4221,7 @@ msgstr "Etikett:"
 
 #: ../gramps/gen/filters/rules/citation/_hastag.py:52
 msgid "Citations with the <tag>"
-msgstr "Fundstellen mit dem <Etikett>"
+msgstr "Fundstellen mit dem <Schlagwort>"
 
 #: ../gramps/gen/filters/rules/citation/_hastag.py:53
 msgid "Matches citations with the particular tag"
@@ -5840,13 +5840,13 @@ msgstr ""
 "Passt auf Personen, die doppelt oder mehrfach Vorfahren einer bestimmten "
 "Person sind"
 
-#: ../gramps/gen/filters/rules/person/_isfemale.py:47
-#: ../gramps/plugins/gramplet/statsgramplet.py:153
-#: ../gramps/plugins/graph/gvfamilylines.py:341
-#: ../gramps/plugins/graph/gvhourglass.py:506
-#: ../gramps/plugins/graph/gvrelgraph.py:1049
-#: ../gramps/plugins/webreport/statistics.py:130
-#: ../gramps/plugins/webreport/statistics.py:240
+#: ../gramps/gen/filters/rules/person/_isfemale.py:45
+#: ../gramps/plugins/gramplet/statsgramplet.py:152
+#: ../gramps/plugins/graph/gvfamilylines.py:291
+#: ../gramps/plugins/graph/gvhourglass.py:446
+#: ../gramps/plugins/graph/gvrelgraph.py:954
+#: ../gramps/plugins/webreport/statistics.py:127
+#: ../gramps/plugins/webreport/statistics.py:195
 msgid "Females"
 msgstr "Weibliche Personen"
 
@@ -5913,13 +5913,13 @@ msgstr ""
 "Passt auf Personen, die Nachkommen einer bestimmten Person sind, die nicht "
 "mehr als N Generationen entfernt sind"
 
-#: ../gramps/gen/filters/rules/person/_ismale.py:47
-#: ../gramps/plugins/gramplet/statsgramplet.py:150
-#: ../gramps/plugins/graph/gvfamilylines.py:337
-#: ../gramps/plugins/graph/gvhourglass.py:502
-#: ../gramps/plugins/graph/gvrelgraph.py:1045
-#: ../gramps/plugins/webreport/statistics.py:128
-#: ../gramps/plugins/webreport/statistics.py:238
+#: ../gramps/gen/filters/rules/person/_ismale.py:45
+#: ../gramps/plugins/gramplet/statsgramplet.py:149
+#: ../gramps/plugins/graph/gvfamilylines.py:287
+#: ../gramps/plugins/graph/gvhourglass.py:442
+#: ../gramps/plugins/graph/gvrelgraph.py:950
+#: ../gramps/plugins/webreport/statistics.py:125
+#: ../gramps/plugins/webreport/statistics.py:193
 msgid "Males"
 msgstr "Männliche Personen"
 
@@ -18119,7 +18119,7 @@ msgstr "_Roman (Times, serif)"
 
 #: ../gramps/gui/glade/styleeditor.glade:332
 msgid "_Swiss (Arial, Helvetica, sans-serif)"
-msgstr "_Swiss (Arial, Helvetica, Sans Serif)"
+msgstr "_Schweizerisch (Arial, Helvetica, Sans Serif)"
 
 #: ../gramps/gui/glade/styleeditor.glade:355
 msgid "Size"
@@ -18449,7 +18449,7 @@ msgstr "_Über"
 
 #: ../gramps/gui/grampsgui.py:58
 msgid "_Addon Manager..."
-msgstr "Erweiterungsverw_altung..."
+msgstr "_Erweiterungsverwaltung..."
 
 #: ../gramps/gui/grampsgui.py:58
 msgid "_Bookmarks"
@@ -19285,9 +19285,9 @@ msgstr "Projekt bearbeiten"
 msgid "Project name"
 msgstr "Projektname"
 
-#: ../gramps/gui/plug/_windows.py:928
-msgid "Restore project defaults"
-msgstr "Projekt-Standardwerte wiederherstellen"
+#: ../gramps/gui/plug/_windows.py:758
+msgid "Checking Addons Failed"
+msgstr "Überprüfung von Erweiterungen fehlgeschlagen"
 
 #: ../gramps/gui/plug/_windows.py:929
 msgid "Are you sure?"
@@ -20528,9 +20528,9 @@ msgstr "Gramps hatte ein Problem, als es das letzte Mal ausgeführt wurde."
 msgid "Would you like to run the Check and Repair tool?"
 msgstr "Möchtest du das Werkzeug zum Prüfen und Reparieren ausführen?"
 
-#: ../gramps/gui/viewmanager.py:1286 ../gramps/gui/viewmanager.py:1904
-msgid "Please wait for backup to complete."
-msgstr "Bitte warte, bis die Sicherung abgeschlossen ist."
+#: ../gramps/gui/viewmanager.py:1212 ../gramps/gui/viewmanager.py:1790
+msgid "Please, wait before closing gramps"
+msgstr "Bitte warte mit dem Schließen von Gramps"
 
 #: ../gramps/gui/viewmanager.py:1288 ../gramps/gui/viewmanager.py:1292
 msgid "Autobackup..."
@@ -20835,11 +20835,11 @@ msgstr "Ausgewählte Zeilen markieren"
 
 #: ../gramps/gui/views/tags.py:96
 msgid "New Tag..."
-msgstr "Neues Etikett..."
+msgstr "Neues Schlagwort..."
 
 #: ../gramps/gui/views/tags.py:96
 msgid "Organize Tags..."
-msgstr "Etiketten organisieren...."
+msgstr "Schlagworte organisieren...."
 
 #: ../gramps/gui/views/tags.py:115
 msgctxt "manual"
@@ -20912,7 +20912,7 @@ msgstr "Neues Etikett"
 
 #: ../gramps/gui/views/tags.py:684
 msgid "Cannot save tag"
-msgstr "Kann Etikett nicht speichern"
+msgstr "Kann Schlagwort nicht speichern"
 
 #: ../gramps/gui/views/tags.py:685
 msgid "The tag name cannot be empty"
@@ -27677,25 +27677,25 @@ msgstr "%(hr)02d:%(min)02d:%(sec)02d"
 msgid "%(date)s %(time)s"
 msgstr "%(date)s %(time)s"
 
-#: ../gramps/plugins/lib/libmetadata.py:120
+#: ../gramps/plugins/lib/libmetadata.py:115
 msgid "Descriptive Tags"
-msgstr "Beschreibende Etiketten"
+msgstr "Beschreibende Schlagworte"
 
-#: ../gramps/plugins/lib/libmetadata.py:121
+#: ../gramps/plugins/lib/libmetadata.py:116
 msgid "Date and Time Tags"
-msgstr "Datum- und Uhrzeit-Etiketten"
+msgstr "Datum- und Uhrzeit-Schlagworte"
 
-#: ../gramps/plugins/lib/libmetadata.py:122
+#: ../gramps/plugins/lib/libmetadata.py:117
 msgid "People Tags"
-msgstr "Personen Etiketten"
+msgstr "Personen Schlagworte"
 
-#: ../gramps/plugins/lib/libmetadata.py:123
+#: ../gramps/plugins/lib/libmetadata.py:118
 msgid "Event Tags"
-msgstr "Ereignis Etiketten"
+msgstr "Ereignis Schlagworte"
 
-#: ../gramps/plugins/lib/libmetadata.py:124
+#: ../gramps/plugins/lib/libmetadata.py:119
 msgid "Image Tags"
-msgstr "Bild Etiketten"
+msgstr "Bild Schlagworte"
 
 #: ../gramps/plugins/lib/libmetadata.py:125
 msgid "Camera Information"
@@ -27703,19 +27703,19 @@ msgstr "Kamerainformationen"
 
 #: ../gramps/plugins/lib/libmetadata.py:126
 msgid "Location Tags"
-msgstr "Ort Etiketten"
+msgstr "Ort Schlagworte"
 
 #: ../gramps/plugins/lib/libmetadata.py:127
 msgid "Advanced Tags"
-msgstr "Erweiterte Etiketten"
+msgstr "Erweiterte Schlagworte"
 
 #: ../gramps/plugins/lib/libmetadata.py:128
 msgid "Rights Tags"
-msgstr "Rechte Etiketten"
+msgstr "Rechte Schlagworte"
 
 #: ../gramps/plugins/lib/libmetadata.py:129
 msgid "Keyword Tags"
-msgstr "Schlüsselwort Etiketten"
+msgstr "Stichwort Schlagworte"
 
 #: ../gramps/plugins/lib/libmetadata.py:228
 msgid "Namespace"
@@ -35522,7 +35522,7 @@ msgstr[1] "{number_of} Fundstellen zusammengeführt"
 
 #: ../gramps/plugins/tool/notrelated.glade:162
 msgid "_Tag"
-msgstr "Etiket_t"
+msgstr "Schlagwor_t"
 
 #: ../gramps/plugins/tool/notrelated.py:61
 msgctxt "manual"
