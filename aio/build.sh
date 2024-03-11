@@ -6,9 +6,12 @@
 ## prerequisites in msys packages
 pacman -S --needed --noconfirm \
     base-devel \
-    git \
     intltool \
+    git \
     mingw-w64-x86_64-adwaita-icon-theme \
+    mingw-w64-x86_64-python-bsddb3 \
+    mingw-w64-x86_64-python-build \
+    mingw-w64-x86_64-python-distlib \
     mingw-w64-x86_64-enchant \
     mingw-w64-x86_64-geocode-glib \
     mingw-w64-x86_64-gexiv2 \
@@ -20,13 +23,9 @@ pacman -S --needed --noconfirm \
     mingw-w64-x86_64-iso-codes \
     mingw-w64-x86_64-nsis \
     mingw-w64-x86_64-osm-gps-map \
-    mingw-w64-x86_64-osm-gps-map \
     mingw-w64-x86_64-python \
-    mingw-w64-x86_64-python-bsddb3 \
-    mingw-w64-x86_64-python-build \
     mingw-w64-x86_64-python-cairo \
     mingw-w64-x86_64-python-cx-freeze \
-    mingw-w64-x86_64-python-distlib \
     mingw-w64-x86_64-python-gobject \
     mingw-w64-x86_64-python-graphviz \
     mingw-w64-x86_64-python-icu \
@@ -46,7 +45,9 @@ pacman -S --needed --noconfirm \
     mingw-w64-x86_64-toolchain \
     perl-XML-Parser \
     subversion \
-    unzip
+    unzip \
+    upx
+pacman -S --needed --noconfirm mingw-w64-x86_64-toolchain
 
 wget --no-verbose -N https://github.com/bpisoj/MINGW-packages/releases/download/v5.0/mingw-w64-x86_64-db-6.0.30-1-any.pkg.tar.xz
 pacman -U --needed --noconfirm mingw-w64-x86_64-db-6.0.30-1-any.pkg.tar.xz
