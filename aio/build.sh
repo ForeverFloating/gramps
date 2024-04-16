@@ -39,6 +39,7 @@ pacman -S --needed --noconfirm \
     mingw-w64-x86_64-python-pillow \
     mingw-w64-x86_64-python-pip \
     mingw-w64-x86_64-python-psycopg2 \
+    mingw-w64-x86_64-python-pycountry \
     mingw-w64-x86_64-python-requests \
     mingw-w64-x86_64-python-setuptools \
     mingw-w64-x86_64-python-wheel \
