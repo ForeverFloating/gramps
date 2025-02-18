@@ -88,6 +88,9 @@ PACKAGES = [
     "pydotplus",
     "pygraphviz",
     "pydot",
+    "cv2",
+    "gedcomx_v1",
+    "webview",
 ]
 EXCLUDES = [
     "tkinter",

@@ -35,6 +35,7 @@ pacman -S --needed --noconfirm \
     mingw-w64-x86_64-python-lxml \
     mingw-w64-x86_64-python-networkx \
     mingw-w64-x86_64-python-nose \
+    mingw-w64-x86_64-python-opencv \
     mingw-w64-x86_64-python-packaging \
     mingw-w64-x86_64-python-pillow \
     mingw-w64-x86_64-python-pip \
@@ -58,7 +59,7 @@ source $pythonvenv/bin/activate
 
 ## prerequisites in pip packages
 python -m pip install --upgrade pip
-pip install --upgrade pygraphviz pydot pydotplus requests asyncio
+pip install --upgrade pygraphviz pydot pydotplus requests asyncio gedcomx-v1 pywebview
 
 ## download dictionaries
 mkdir -p /mingw64/share/enchant/hunspell
