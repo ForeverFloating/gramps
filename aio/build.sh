@@ -84,7 +84,7 @@ source $pythonvenv/bin/activate
 
 ## prerequisites in pip packages
 python -m pip install --upgrade pip
-pip install --upgrade asyncio gedcomx-v1 orjson pydot pydotplus pygraphviz requests
+pip install --upgrade asyncio gedcomx-v1 orjson pydot pydotplus pygraphviz requests selenium
 
 ## download dictionaries
 mkdir -p /mingw64/share/enchant/hunspell

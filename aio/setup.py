@@ -89,6 +89,7 @@ PACKAGES = [
     "pygraphviz",
     "pydot",
 		"orjson",
+		"selenium",
     "cv2",
     "gedcomx_v1",
 ]
