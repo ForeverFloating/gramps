@@ -59,7 +59,7 @@ source $pythonvenv/bin/activate
 
 ## prerequisites in pip packages
 python -m pip install --upgrade pip
-pip install --upgrade pygraphviz pydot pydotplus requests asyncio gedcomx-v1 pywebview
+pip install --upgrade pygraphviz pydot pydotplus requests asyncio gedcomx-v1 pywebview undetected-chromedriver
 
 ## download dictionaries
 mkdir -p /mingw64/share/enchant/hunspell
@@ -142,7 +142,7 @@ cp /mingw64/share/icons/hicolor/scalable/places/*.svg /mingw64/share/icons/gnome
 
 # build gramps
 rm -rf dist aio/dist
-python setup.py bdist_wheel
+python -m build
 appbuild="r$(git rev-list --count HEAD)-$(git rev-parse --short HEAD)"
 appversion=$(grep "^VERSION_TUPLE" gramps/version.py | sed 's/.*(//;s/, */\./g;s/).*//')
 unzip -q -d aio/dist dist/*.whl

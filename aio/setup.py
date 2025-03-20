@@ -91,6 +91,7 @@ PACKAGES = [
     "cv2",
     "gedcomx_v1",
     "webview",
+    "undetected_chromedriver",
 ]
 EXCLUDES = [
     "tkinter",
